@@ -1,0 +1,26 @@
+installations
+-> pip install django
+-> pip install django-crispy-forms
+-> pip install pillow
+-> download pytesseract source code
+
+process to run
+-> open the sent main folder named pythonapp.
+-> open command prompt or terminal in this directory.
+-> enter >python manage.py makemigrations
+	 >python manage.py migrate
+	 >python manage.py runserver
+-> now open chrome with local host 8000.
+
+output
+-> upload a image in the website and the result
+  will be shown to you below it after uploading.
+-> or else u can also see the text file named 
+  text.txt in the main folder sent.
+
+Code
+-> Image to text conversion code will be at imgtxt/views.py
+  and function named list.
+
+PS: inform me if you get any error while running 
+   the code.
